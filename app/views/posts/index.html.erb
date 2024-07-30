@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+
+<div class="flex items-center justify-between flex-wrap mb-6">
+  <h1 class="text-3xl font-bold tracking-tighter">Posts</h1>
+
+  <%= render(ButtonComponent.new(label: "New post", href: new_post_path, theme: :primary)) %>
+
+  <!-- example block version -->
+  <%= render(ButtonComponent.new(href: "#", theme: :primary)) do %>
+    <span>Click me</span>
+  <% end %>
+</div>
+
+<div class="posts">
+  <% @posts.each do |post| %>
+    <%= render(BlogPostComponent.new(post: post)) %>
+  <% end %>
+</div>

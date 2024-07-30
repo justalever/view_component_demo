@@ -1,0 +1,11 @@
+ <nav class="bg-slate-50 p-3 m-3 rounded-md flex items-center justify-between gap-6">
+    <% if logo? %>
+      <%= logo %>
+    <% end %>
+
+    <div class="flex-1 flex gap-6">
+      <% items.each do |item| %>
+        <%= item %>
+      <% end %>
+    </div>
+  </nav>
