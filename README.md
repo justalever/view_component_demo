@@ -1,24 +1,10 @@
-# README
+![ViewComponent Crash Course with Ruby on Rails](https://f001.backblazeb2.com/file/webcrunch/view-component-crash-course.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# ViewComponent Crash Course with Ruby on Rails
 
-Things you may want to cover:
+ViewComponent is a powerful gem that allows you to create reusable, testable, and encapsulated view components in Ruby on Rails applications.
 
-* Ruby version
+[ViewComponent](https://viewcomponent.org) was developed by the GitHub team and has since been adopted by many developers looking for more structure than the default partials and helpers provided by Ruby on Rails. This crash course will review ViewComponent's use case and explore how it might fit your next Rails app.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Read the full crash course](https://webcrunch.com/posts/view-component-crash-course)
+- [Watch the full crash course](https://youtu.be/Mc19pB784Us)
